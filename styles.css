@@ -1,0 +1,119 @@
+/* --- GENERAL BODY STYLES --- */
+
+body {
+    background-color: purple; /* Sets the background color of the entire webpage */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Sets the default font stack */
+}
+
+/* --- ELEMENT STYLES --- */
+
+h1 {
+    text-decoration: underline; /* Underlines all <h1> headers */
+}
+
+h3 {
+    font-style: italic; /* Makes <h3> text italic */
+    background-color: rgb(134, 134, 232); /* Light blue background for <h3> elements */
+    width: max-content; /* Shrinks width to fit content size */
+    padding: 5px; /* Adds space around the text inside <h3> */
+}
+
+/* --- NAVIGATION BAR STYLES --- */
+
+.navbar {
+    background-color: rgb(39, 102, 201); /* Blue background for the navbar */
+    padding: 0.25em; /* Slight padding around navbar content */
+}
+
+.navbar ol {
+    display: flex; /* Displays nav items in a row */
+    flex-wrap: nowrap; /* Prevents nav items from wrapping to next line */
+    justify-content: flex-start; /* Aligns nav items to the left */
+    list-style-type: none; /* Removes default list bullets */
+}
+
+.navbar a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+    margin-right: 1em; /* Space between nav links */
+    font-size: 24px; /* Increases font size for readability */
+    box-shadow: 2px 1px rgb(209, 173, 173); /* Adds a subtle drop shadow to the link text */
+}
+
+.navbar a:hover {
+    color: aqua; /* Changes text color to aqua on hover */
+}
+
+.navbar a:active {
+    background-color: green; /* Green background when a link is clicked */
+    border-radius: 50%; /* Rounds the background into a circle */
+}
+
+/* --- FAVORITE THINGS LIST --- */
+
+#favoriteThings {
+    display: flex; /* Lays out list items in a row */
+    justify-content: space-around; /* Evenly spaces list items */
+    flex-wrap: wrap; /* Allows list items to wrap to new lines on smaller screens */
+}
+
+#favoriteThings li {
+    text-align: center; /* Centers text inside list items */
+    list-style-type: none; /* Removes default bullets from list items */
+}
+
+/* --- TABLE STYLES --- */
+
+table {
+    background-color: goldenrod; /* Sets table background color */
+    border: 3px dotted black; /* Adds a dotted black border around the table */
+}
+
+table caption {
+    font-size: 30px; /* Larger font size for caption */
+    font-weight: 600; /* Makes caption text bold */
+    border: 3px solid black; /* Adds border around the caption */
+    background-color: goldenrod; /* Matches table background */
+}
+
+th {
+    background-color: rgba(55, 116, 116, 0.472); /* Semi-transparent teal background */
+    color: black; /* Text color */
+    font-size: 24px; /* Larger text size for table headers */
+}
+
+tr {
+    text-indent: 20px; /* Indents table row text */
+}
+
+td {
+    font-weight: 600; /* Makes cell text bold */
+}
+
+/* --- FORM STYLING --- */
+
+form {
+    display: flex; /* Uses flexbox to lay out form elements */
+    flex-direction: column; /* Stacks form elements vertically */
+    max-width: 30vw; /* Restricts form width to 30% of the view width */
+    background-color: goldenrod; /* Matches table styling for consistency */
+    padding: 10px; /* Adds padding inside the form */
+}
+
+form label {
+    color: black; /* Sets label text color */
+    font-weight: 600; /* Makes labels bold */
+    font-size: larger; /* Slightly increases label size */
+    align-self: center; /* Centers labels horizontally in the form */
+}
+
+form input {
+    margin-bottom: 10px; /* Adds space below each input field */
+}
+
+form button {
+    padding: 5px; /* Adds space inside the button */
+    letter-spacing: 3px; /* Spreads out the letters in the button text */
+    font-size: 20px; /* Increases button text size */
+    font-weight: 600; /* Makes button text bold */
+}
