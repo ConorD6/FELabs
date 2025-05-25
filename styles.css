@@ -1,0 +1,26 @@
+.fixed-img {
+  width: 100%;         /* Stretch to card width */
+  height: 300px;       /* Set height */
+  object-fit: cover;   /* Crop image to fill without stretching */
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Oswald", sans-serif;
+  color:brown
+}
+
+a{
+  color:blueviolet;
+}
+
+a:hover{
+  filter: drop-shadow(2px 2px 1px rgba(3, 53, 50, 0.5) );
+}
+
+.photo--grid, footer{
+  background-color:aqua;
+}
+
+.overlay{
+  max-width: 600px;
+}
